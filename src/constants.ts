@@ -5,6 +5,6 @@ export const PHONEPE_ANDROID_PACKAGE = 'com.phonepe.app';
 export const TERMS_URL = `${API_BASE_URL}/terms`;
 export const PRIVACY_URL = `${API_BASE_URL}/privacy`;
 export const COMPANY_NAME = 'Easy Credit';
-export const CONTACT_EMAIL = 'easycredits@gmail.com';
+export const CONTACT_EMAIL = 'supporteasycredit@gmail.com';
 export const CONTACT_PHONE = '+91 98765 43210';
 export const COMPANY_WEBSITE_URL = API_BASE_URL;

@@ -62,7 +62,7 @@ const PRIVACY_SECTIONS = [
   },
   {
     title: '14. Grievance officer and contact',
-    body: 'For privacy-related questions, requests, or complaints, you may contact our Grievance Officer through the contact details provided within the Platform or via the customer care channels listed in the app. We will endeavour to acknowledge and resolve grievances in line with applicable timelines under law.\n\nQuestions? Use Contact Us in the app or email easycredits@gmail.com.',
+    body: 'For privacy-related questions, requests, or complaints, you may contact our Grievance Officer through the contact details provided within the Platform or via the customer care channels listed in the app. We will endeavour to acknowledge and resolve grievances in line with applicable timelines under law.\n\nQuestions? Use Contact Us in the app or email supporteasycredit@gmail.com.',
   },
 ];
 
@@ -129,7 +129,7 @@ const TERMS_SECTIONS = [
   },
   {
     title: '16. Miscellaneous',
-    body: 'This document constitutes the entire agreement between you and Easy Credit regarding the subject matter hereof and supersedes prior understandings. If any provision is held invalid, the remainder remains in effect. Failure to enforce a provision is not a waiver. You may not assign these Terms without our consent; we may assign them in connection with a merger or sale of assets.\n\nQuestions? Use Contact Us in the app or email easycredits@gmail.com.',
+    body: 'This document constitutes the entire agreement between you and Easy Credit regarding the subject matter hereof and supersedes prior understandings. If any provision is held invalid, the remainder remains in effect. Failure to enforce a provision is not a waiver. You may not assign these Terms without our consent; we may assign them in connection with a merger or sale of assets.\n\nQuestions? Use Contact Us in the app or email supporteasycredit@gmail.com.',
   },
 ];
 
