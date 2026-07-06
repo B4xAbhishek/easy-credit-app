@@ -93,7 +93,7 @@ export function OrdersScreen({ navigation }: Props) {
                 setRefreshing(true);
                 load();
               }}
-              tintColor="#5B5CF6"
+              tintColor="#F5821F"
             />
           }
           contentContainerStyle={S.listContent}

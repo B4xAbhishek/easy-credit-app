@@ -160,7 +160,7 @@ export function LoginScreen({ navigation }: Props) {
 
   return (
     <View style={S.loginRoot}>
-      <StatusBar barStyle="light-content" backgroundColor="#5B5CF6" />
+      <StatusBar barStyle="light-content" backgroundColor="#F5821F" />
 
       <View style={[S.loginHero, { paddingTop: insets.top + 20 }]}>
         <View style={S.loginLogoCard}>

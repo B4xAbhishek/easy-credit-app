@@ -4,7 +4,7 @@ export const S = StyleSheet.create({
   // ── Loading ──────────────────────────────────────────────────────────────────
   loadingScreen: {
     flex: 1,
-    backgroundColor: '#EEF2FF',
+    backgroundColor: '#FDF1E7',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -25,14 +25,14 @@ export const S = StyleSheet.create({
     height: 36,
     borderRadius: 18,
     borderWidth: 3,
-    borderColor: 'rgba(91, 92, 246, 0.22)',
-    borderTopColor: '#5B5CF6',
+    borderColor: 'rgba(245,130,31, 0.22)',
+    borderTopColor: '#F5821F',
   },
 
   // ── Login ─────────────────────────────────────────────────────────────────────
-  loginRoot: { flex: 1, backgroundColor: '#5B5CF6' },
+  loginRoot: { flex: 1, backgroundColor: '#F5821F' },
   loginHero: {
-    backgroundColor: '#5B5CF6',
+    backgroundColor: '#F5821F',
     paddingHorizontal: 24,
     paddingBottom: 92,
     alignItems: 'center',
@@ -108,7 +108,7 @@ export const S = StyleSheet.create({
   },
   loginInputIcon: { fontSize: 16, marginRight: 8, color: '#6C63FF', width: 16 },
   loginPrefix: { fontSize: 15, color: '#59556C', fontWeight: '500', marginRight: 8 },
-  loginTextInput: { flex: 1, fontSize: 15, color: '#1A1A2E', paddingVertical: 8 },
+  loginTextInput: { flex: 1, fontSize: 15, color: '#1C160F', paddingVertical: 8 },
   loginHelperText: {
     fontSize: 12,
     color: '#9B95AB',
@@ -118,7 +118,7 @@ export const S = StyleSheet.create({
   },
   loginInlineRow: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   loginGetOtpBtn: {
-    backgroundColor: '#6A67F6',
+    backgroundColor: '#F5821F',
     borderRadius: 999,
     paddingHorizontal: 22,
     paddingVertical: 14,
@@ -135,7 +135,7 @@ export const S = StyleSheet.create({
     justifyContent: 'center',
     ...Platform.select({
       ios: {
-        shadowColor: '#4338CA',
+        shadowColor: '#C85D12',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.08,
         shadowRadius: 6,
@@ -143,7 +143,7 @@ export const S = StyleSheet.create({
       android: { elevation: 2 },
     }),
   },
-  loginCodeBtnText: { color: '#5B5CF6', fontWeight: '700', fontSize: 13 },
+  loginCodeBtnText: { color: '#F5821F', fontWeight: '700', fontSize: 13 },
   loginPrimaryBtn: {
     backgroundColor: '#625EF5',
     borderRadius: 999,
@@ -153,7 +153,7 @@ export const S = StyleSheet.create({
     marginBottom: 16,
     ...Platform.select({
       ios: {
-        shadowColor: '#5B5CF6',
+        shadowColor: '#F5821F',
         shadowOffset: { width: 0, height: 6 },
         shadowOpacity: 0.35,
         shadowRadius: 10,
@@ -174,11 +174,11 @@ export const S = StyleSheet.create({
     lineHeight: 18,
     marginTop: 2,
   },
-  loginTermsLink: { color: '#5B5CF6', fontWeight: '600' },
+  loginTermsLink: { color: '#F5821F', fontWeight: '600' },
 
   // ── Shared screen header (purple) ─────────────────────────────────────────────
   screenHeader: {
-    backgroundColor: '#5B5CF6',
+    backgroundColor: '#F5821F',
     paddingHorizontal: 20,
     paddingBottom: 20,
     alignItems: 'center',
@@ -206,7 +206,7 @@ export const S = StyleSheet.create({
     padding: 4,
   },
   segBtn: { flex: 1, paddingVertical: 9, alignItems: 'center', borderRadius: 999 },
-  segBtnActive: { backgroundColor: '#5B5CF6' },
+  segBtnActive: { backgroundColor: '#F5821F' },
   segBtnText: { color: '#6B7280', fontWeight: '600', fontSize: 14 },
   segBtnTextActive: { color: '#FFFFFF' },
 
@@ -241,7 +241,7 @@ export const S = StyleSheet.create({
   loanCardName: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#1A1A2E',
+    color: '#1C160F',
     flex: 1,
     marginRight: 8,
   },
@@ -256,7 +256,7 @@ export const S = StyleSheet.create({
   },
   loanCardId: { color: '#6B7280', fontSize: 12, marginTop: 2 },
   loanAmountLabel: { color: '#6B7280', fontSize: 12 },
-  loanAmount: { fontSize: 22, fontWeight: '800', color: '#1A1A2E' },
+  loanAmount: { fontSize: 22, fontWeight: '800', color: '#1C160F' },
   detailBtn: {
     backgroundColor: '#0EA5E9',
     borderRadius: 10,
@@ -300,12 +300,12 @@ export const S = StyleSheet.create({
   homeFeaturedCard: {
     overflow: 'hidden',
     borderRadius: 18,
-    backgroundColor: '#241F3E',
+    backgroundColor: '#241B12',
     padding: 16,
     marginBottom: 28,
     ...Platform.select({
       ios: {
-        shadowColor: '#241F3E',
+        shadowColor: '#241B12',
         shadowOffset: { width: 0, height: 10 },
         shadowOpacity: 0.18,
         shadowRadius: 18,
@@ -320,7 +320,7 @@ export const S = StyleSheet.create({
     width: 150,
     height: 150,
     borderRadius: 75,
-    backgroundColor: 'rgba(99,102,241,0.22)',
+    backgroundColor: 'rgba(245,130,31,0.22)',
   },
   homeFeaturedGlowBottom: {
     position: 'absolute',
@@ -329,7 +329,7 @@ export const S = StyleSheet.create({
     width: 140,
     height: 140,
     borderRadius: 70,
-    backgroundColor: 'rgba(124,58,237,0.18)',
+    backgroundColor: 'rgba(245,130,31,0.18)',
   },
   homeFeaturedTopRow: {
     flexDirection: 'row',
@@ -344,7 +344,7 @@ export const S = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  homeCardBadgeText: { color: '#241F3E', fontSize: 16, fontWeight: '700' },
+  homeCardBadgeText: { color: '#241B12', fontSize: 16, fontWeight: '700' },
   homeBrandPill: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -357,7 +357,7 @@ export const S = StyleSheet.create({
     width: 12,
     height: 12,
     borderRadius: 6,
-    backgroundColor: '#6A67F6',
+    backgroundColor: '#F5821F',
     marginRight: 6,
   },
   homeBrandPillText: { color: 'rgba(255,255,255,0.82)', fontSize: 12 },
@@ -376,7 +376,7 @@ export const S = StyleSheet.create({
   },
   homeRepayBtn: {
     borderRadius: 999,
-    backgroundColor: '#6663F6',
+    backgroundColor: '#F5821F',
     paddingHorizontal: 24,
     paddingVertical: 13,
   },
@@ -394,7 +394,7 @@ export const S = StyleSheet.create({
     marginBottom: 16,
     ...Platform.select({
       ios: {
-        shadowColor: '#3C155B',
+        shadowColor: '#2A1A0F',
         shadowOffset: { width: 0, height: 8 },
         shadowOpacity: 0.08,
         shadowRadius: 18,
@@ -423,7 +423,7 @@ export const S = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     fontWeight: '800',
-    color: '#1F1729',
+    color: '#1C160F',
   },
   homeLoanStatus: {
     maxWidth: 130,
@@ -447,9 +447,9 @@ export const S = StyleSheet.create({
     alignItems: 'flex-end',
   },
   homeLoanAmountLabel: { fontSize: 12, color: '#9B95AB', marginBottom: 4 },
-  homeLoanAmount: { fontSize: 20, fontWeight: '800', color: '#1F1729' },
+  homeLoanAmount: { fontSize: 20, fontWeight: '800', color: '#1C160F' },
   homeDetailBtn: {
-    backgroundColor: '#6663F6',
+    backgroundColor: '#F5821F',
     borderRadius: 10,
     paddingHorizontal: 16,
     paddingVertical: 10,
@@ -504,17 +504,17 @@ export const S = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: 'rgba(91,92,246,0.1)',
+    backgroundColor: 'rgba(245,130,31,0.1)',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  backBtnText: { fontSize: 28, color: '#5B5CF6', marginTop: -2 },
+  backBtnText: { fontSize: 28, color: '#F5821F', marginTop: -2 },
   detailHeaderTitle: {
     flex: 1,
     textAlign: 'center',
     fontSize: 18,
     fontWeight: '700',
-    color: '#1A1A2E',
+    color: '#1C160F',
   },
   detailContent: { padding: 16, gap: 14 },
   detailIconCircle: {
@@ -555,7 +555,7 @@ export const S = StyleSheet.create({
   },
   detailCardDivider: { height: 1, backgroundColor: '#E5E7EB' },
   detailCardRowLabel: { color: '#6B7280', fontSize: 14 },
-  detailCardRowValue: { color: '#1A1A2E', fontSize: 14, fontWeight: '600' },
+  detailCardRowValue: { color: '#1C160F', fontSize: 14, fontWeight: '600' },
   extensionCard: {
     backgroundColor: '#FFFFFF',
     borderRadius: 18,
@@ -573,24 +573,24 @@ export const S = StyleSheet.create({
       android: { elevation: 2 },
     }),
   },
-  extensionTitle: { fontSize: 14, fontWeight: '600', color: '#1A1A2E' },
+  extensionTitle: { fontSize: 14, fontWeight: '600', color: '#1C160F' },
   extensionSub: { fontSize: 12, color: '#6B7280', marginTop: 2 },
   extensionBtn: {
     borderWidth: 1.5,
-    borderColor: '#5B5CF6',
+    borderColor: '#F5821F',
     borderRadius: 12,
     paddingHorizontal: 14,
     paddingVertical: 8,
   },
-  extensionBtnText: { color: '#5B5CF6', fontWeight: '700', fontSize: 13 },
+  extensionBtnText: { color: '#F5821F', fontWeight: '700', fontSize: 13 },
   repaymentBtn: {
-    backgroundColor: '#5B5CF6',
+    backgroundColor: '#F5821F',
     borderRadius: 16,
     paddingVertical: 17,
     alignItems: 'center',
     ...Platform.select({
       ios: {
-        shadowColor: '#5B5CF6',
+        shadowColor: '#F5821F',
         shadowOffset: { width: 0, height: 6 },
         shadowOpacity: 0.35,
         shadowRadius: 10,
@@ -607,7 +607,7 @@ export const S = StyleSheet.create({
 
   // ── Account ───────────────────────────────────────────────────────────────────
   accountHeader: {
-    backgroundColor: '#5B5CF6',
+    backgroundColor: '#F5821F',
     paddingHorizontal: 20,
     paddingBottom: 28,
     alignItems: 'center',
@@ -659,7 +659,7 @@ export const S = StyleSheet.create({
   sectionTitle: {
     fontSize: 16,
     fontWeight: '700',
-    color: '#1A1A2E',
+    color: '#1C160F',
     marginHorizontal: 16,
     marginTop: 16,
     marginBottom: 8,
@@ -695,7 +695,7 @@ export const S = StyleSheet.create({
     marginRight: 14,
   },
   accountRowIconText: { fontSize: 17, color: '#FFFFFF', fontWeight: '700' },
-  accountRowLabel: { flex: 1, fontSize: 15, color: '#1A1A2E', fontWeight: '500' },
+  accountRowLabel: { flex: 1, fontSize: 15, color: '#1C160F', fontWeight: '500' },
   accountRowArrow: { fontSize: 22, color: '#6B7280' },
   accountRowArrowWrap: {
     width: 34,
@@ -758,7 +758,7 @@ export const S = StyleSheet.create({
   },
   contactActionBtn: {
     alignSelf: 'flex-start',
-    backgroundColor: '#5B5CF6',
+    backgroundColor: '#F5821F',
     borderRadius: 999,
     paddingHorizontal: 14,
     paddingVertical: 8,
@@ -766,7 +766,7 @@ export const S = StyleSheet.create({
   contactActionBtnText: { color: '#FFFFFF', fontWeight: '700', fontSize: 13 },
   legalContent: { padding: 16, paddingBottom: 28 },
   legalIntro: {
-    backgroundColor: '#EEF2FF',
+    backgroundColor: '#FDF1E7',
     color: '#1E3A8A',
     borderRadius: 12,
     padding: 12,
@@ -799,9 +799,9 @@ export const S = StyleSheet.create({
 
   // ── Payment ───────────────────────────────────────────────────────────────────
   paymentRoot: { flex: 1, backgroundColor: '#E9E1F7' },
-  paymentHeaderSafeArea: { backgroundColor: '#E7DDF8' },
+  paymentHeaderSafeArea: { backgroundColor: '#FBE4CE' },
   paymentHeader: {
-    backgroundColor: '#E7DDF8',
+    backgroundColor: '#FBE4CE',
     paddingHorizontal: 16,
     paddingTop: 12,
     paddingBottom: 40,
@@ -816,7 +816,7 @@ export const S = StyleSheet.create({
     width: 140,
     height: 140,
     borderRadius: 70,
-    backgroundColor: 'rgba(60,21,91,0.06)',
+    backgroundColor: 'rgba(42,26,15,0.06)',
   },
   paymentHeaderOrbLeft: {
     position: 'absolute',
@@ -825,7 +825,7 @@ export const S = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 60,
-    backgroundColor: 'rgba(60,21,91,0.05)',
+    backgroundColor: 'rgba(42,26,15,0.05)',
   },
   paymentHeaderRow: {
     flexDirection: 'row',
@@ -840,13 +840,13 @@ export const S = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(60,21,91,0.12)',
+    borderColor: 'rgba(42,26,15,0.12)',
   },
-  paymentBackBtnText: { fontSize: 28, color: '#3C155B', marginTop: -2 },
+  paymentBackBtnText: { fontSize: 28, color: '#2A1A0F', marginTop: -2 },
   paymentHeaderTitle: {
     fontSize: 19,
     fontWeight: '700',
-    color: '#3C155B',
+    color: '#2A1A0F',
     letterSpacing: 0.1,
   },
   paymentScrollContent: {
@@ -863,7 +863,7 @@ export const S = StyleSheet.create({
     borderColor: '#F1ECF8',
     ...Platform.select({
       ios: {
-        shadowColor: '#3C155B',
+        shadowColor: '#2A1A0F',
         shadowOffset: { width: 0, height: 8 },
         shadowOpacity: 0.08,
         shadowRadius: 20,
@@ -885,7 +885,7 @@ export const S = StyleSheet.create({
   paymentAmountHero: {
     fontSize: 34,
     fontWeight: '800',
-    color: '#4338CA',
+    color: '#C85D12',
     letterSpacing: -0.4,
   },
   paymentDocBadge: {
@@ -894,11 +894,11 @@ export const S = StyleSheet.create({
     borderRadius: 18,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#EEF2FF',
+    backgroundColor: '#FDF1E7',
   },
   paymentDocBadgeText: {
     fontSize: 18,
-    color: '#4338CA',
+    color: '#C85D12',
     fontWeight: '700',
   },
   paymentTimer: {
@@ -946,13 +946,13 @@ export const S = StyleSheet.create({
   paymentShowQrBtn: {
     borderRadius: 999,
     borderWidth: 2,
-    borderColor: '#4338CA',
+    borderColor: '#C85D12',
     backgroundColor: '#FFFFFF',
     paddingHorizontal: 22,
     paddingVertical: 11,
   },
   paymentShowQrBtnText: {
-    color: '#4338CA',
+    color: '#C85D12',
     fontWeight: '700',
     fontSize: 14,
   },
@@ -1125,10 +1125,10 @@ export const S = StyleSheet.create({
     borderRadius: 14,
     paddingVertical: 15,
     alignItems: 'center',
-    backgroundColor: '#4338CA',
+    backgroundColor: '#C85D12',
     ...Platform.select({
       ios: {
-        shadowColor: '#4338CA',
+        shadowColor: '#C85D12',
         shadowOffset: { width: 0, height: 6 },
         shadowOpacity: 0.25,
         shadowRadius: 10,
@@ -1208,7 +1208,7 @@ export const S = StyleSheet.create({
   paymentModalPrimaryBtn: {
     flex: 1,
     borderRadius: 14,
-    backgroundColor: '#4338CA',
+    backgroundColor: '#C85D12',
     alignItems: 'center',
     paddingVertical: 14,
   },
@@ -1254,7 +1254,7 @@ export const S = StyleSheet.create({
     }),
   },
   tabBarLabel: { fontSize: 11, fontWeight: '600' },
-  tabIconActive: { fontSize: 22, color: '#5B5CF6' },
+  tabIconActive: { fontSize: 22, color: '#F5821F' },
   tabIconInactive: { fontSize: 22, color: '#64748B', opacity: 0.45 },
 
   // ── Shared ────────────────────────────────────────────────────────────────────

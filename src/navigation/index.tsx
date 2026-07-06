@@ -25,7 +25,7 @@ function MainTabs() {
       screenOptions={{
         headerShown: false,
         tabBarStyle: S.tabBar,
-        tabBarActiveTintColor: '#5B5CF6',
+        tabBarActiveTintColor: '#F5821F',
         tabBarInactiveTintColor: '#94A3B8',
         tabBarLabelStyle: S.tabBarLabel,
       }}>
